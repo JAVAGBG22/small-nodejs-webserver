@@ -5,9 +5,9 @@ pool
   .connect({
     host: "localhost",
     port: 5432,
-    database: "",
-    user: "",
-    password: "",
+    database: "photoapp",
+    user: "postgres",
+    password: "password",
   })
   .then(() => {
     app().listen(3005, () => {
